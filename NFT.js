@@ -10,7 +10,7 @@ function MINTNFT(name, company, power, speed, level) {
     nftCollection.push(nft);
 }
 function LISTNFTs() {
-     console.log("Welcome to Shivam's NFT Collection Game!");
+     console.log("Welcome to Anshul's NFT Collection Game!");
     for (let i = 0; i < nftCollection.length; i++) {
         console.log("\n____________ENTRY NFT CARD ___________________\n");
         console.log("Name: " + nftCollection[i].name);
